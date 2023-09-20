@@ -1,0 +1,27 @@
+.panel-container {
+  display: flex;
+}
+
+.left-panel {
+  height: 100vh;
+  overflow-y: auto;
+  border-right: 2px solid #46143c;
+  width: 300px;
+  background-color: #ededed;
+}
+
+.right-panel {
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #ededed;
+}
+
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 30px;
+  user-select: none;
+}
